@@ -1,0 +1,52 @@
+ .slider-container {
+     display: flex;
+     margin-top: 0px;
+     height: 98vh;
+     /* For 100% screen height */
+     width: 100%;
+     overflow: hidden;
+     border-bottom: 1px solid black;
+     position: relative;
+ }
+ 
+ .slider-innerContainer {
+     transition: left 0.8s ease-out;
+     display: flex;
+     position: relative;
+     height: 99vh;
+     width: 100%;
+ }
+ 
+ .slider-innerContainer>* {
+     height: 99vh;
+     flex-shrink: 0;
+     width: 100%;
+ }
+ 
+ .slider-innerContainer>* img {
+     width: 100%;
+     height: 99vh;
+ }
+ 
+ .web1 {
+     display: flex;
+     position: absolute;
+     height: 15vh;
+     width: 60vw;
+     background: transparent;
+     margin-top: 40vh;
+     margin-left: 25%;
+     color: white;
+     align-items: center;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 3.5vw;
+ }
+ 
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }

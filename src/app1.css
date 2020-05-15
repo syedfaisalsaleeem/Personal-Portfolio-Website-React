@@ -1,0 +1,26 @@
+.container1 {
+    height: 750px;
+    width: 100%;
+    background: crimson;
+}
+
+.styling {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.styling p,
+h1,
+ul,
+ol {
+    color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -6px;
+    display: inline-block;
+    margin-left: 50%;
+}
